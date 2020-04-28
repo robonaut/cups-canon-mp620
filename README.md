@@ -8,5 +8,5 @@ $ ./print.sh
 
 This will create an ubuntu based cups server with support for old Canon printers
 
-## Install networked printer using IPPP
+## Install networked printer using IPP
 Point host to `localhost:6310` and user `printers/canon` as queue name
