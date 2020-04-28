@@ -35,10 +35,7 @@ RUN useradd \
   print \
 && sed -i '/%sudo[[:space:]]/ s/ALL[[:space:]]*$/NOPASSWD:ALL/' /etc/sudoers
 
-
 COPY cupsd.conf /etc/cups/cupsd.conf
-
-RUN service avahi-daemon restart
 
 COPY files files
 
