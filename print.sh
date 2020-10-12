@@ -14,7 +14,7 @@ docker exec print service dbus start
 docker exec print service avahi-daemon start
 
 # Add canon network printer with bjnp backend
-docker exec print lpadmin -p canon -E -v bjnp://192.168.0.142:8611 -m gutenprint.5.3://bjc-MULTIPASS-MP620/expert
+docker exec print lpadmin -p canon -E -v bjnp://192.168.0.100:8611 -m gutenprint.5.3://bjc-MULTIPASS-MP620/expert
 
 # Make this the default printer
 docker exec print lpadmin -d canon
