@@ -16,7 +16,7 @@ Browse to http://127.0.0.1:6310
 
 ## Command line photo print
 ```sh
-$ lp -o MediaType=PhotoPlusGloss2 -o InputSlot=Rear -o PageSize=Custom.4x6in -o StpFullBleed=True o StpiShrinkOutput=Expand [filename].pdf
+$ lp -o MediaType=PhotoPlusGloss2 -o InputSlot=Rear -o PageSize=Custom.4x6in -o StpFullBleed=True -o StpiShrinkOutput=Expand [filename].pdf
 ```
 
 ## Command line A4 PDF print
