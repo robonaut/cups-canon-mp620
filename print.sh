@@ -1,3 +1,6 @@
+# ensure files directory exists
+mkdir -p files
+
 # remove running instance
 docker rm -f print || true
 

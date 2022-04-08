@@ -4,13 +4,13 @@ WORKDIR /app
 
 COPY entrypoint.sh entrypoint.sh
 
-RUN apt-get update
+RUN apt update
 
-RUN apt-get install -y tzdata
+RUN apt install -y tzdata
 
 RUN dpkg-reconfigure --frontend noninteractive tzdata
 
-RUN apt-get install -y \
+RUN apt install -y \
   sudo \
   whois \
   curl \
