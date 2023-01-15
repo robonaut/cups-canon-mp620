@@ -23,3 +23,6 @@ $ lp -o MediaType=PhotoPlusGloss2 -o InputSlot=Rear -o PageSize=Custom.4x6in -o 
 ```sh
 $ lp [filename].pdf
 ```
+
+## Install scanner
+Install drivers for the (MP280)[https://nl.canon.be/support/consumer_products/products/fax__multifunctionals/inkjet/pixma_mp_series/pixma_mp280.html?type=drivers&driverdetailid=tcm:43-2225643&os=macos%2012%20%28monterey%29&language=nl] to gain native scanning capabilities
